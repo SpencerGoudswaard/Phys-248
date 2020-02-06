@@ -1,0 +1,25 @@
+    1  PS1='[PEXP\[\]ECT_PROMPT>' PS2='[PEXP\[\]ECT_PROMPT+' PROMPT_COMMAND=''
+    2  export PAGER=cat
+    3  display () {     TMPFILE=$(mktemp ${TMPDIR-/tmp}/bash_kernel.XXXXXXXXXX);     cat > $TMPFILE;     echo "bash_kernel: saved image data to: $TMPFILE" >&2; }
+    4  import sys
+    5  echo $?
+    6  print(sys.version)
+    7  echo $?
+    8  import sys
+    9  echo $?
+   10  man bash
+   11  ls
+   12  cd mp248-course-notes.week_1and2
+   13  git config --global user.name "Goudswaard, Spencer"
+   14  git config --global user.email spencergoudswaard@hotmail.com
+   15  git config --global core.editor vi
+   16  cat ~/.gitconfig
+   17  mkdir ~/.ssh
+   18  cd /.ssh
+   19  cd ~/.ssh
+   20  ssh-keygen
+   21  cat ./id_rsa.pub
+   22  git clone ssh://git@abacus.phys.uvic.ca:2233/fherwig/mp248-course-notes.git
+   23  git clone ssh://git@abacus.phys.uvic.ca:2233/fherwig/mp248-course-notes.git
+   24  ls
+   25  cd mp248-course-notes
